@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="client2.xsl"?>
+<!DOCTYPE employees[
+  <!ELEMENT products (record*)>
+  <!ELEMENT record (name, description, price, image)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT description (#PCDATA)>
+  <!ELEMENT price (#PCDATA)>
+  <!ELEMENT image (#PCDATA)>
+
+]>
+
+<!-- The root element should be the same as file name -->
+<products>
+  <record>
+    <name>Beetroot and feta salad </name>
+    <description>Suitable for vegetarians, made with fresh beetroot</description>
+    <price>$15.00</price>
+    <image>https://via.placeholder.com/50.gif</image>
+  </record>
+   <record>
+    <name>Sourdough Rye Sandwich </name>
+    <description>Cheese and salad sandwich made with organic, sourdough rye bread</description>
+    <price>$18.00</price>
+    <image>https://via.placeholder.com/50.gif</image>
+  </record>
+   <record>
+    <name>Spinach Pie and Salad</name>
+    <description>Tasty pie with salad  </description>
+    <price>$20.00</price>
+    <image>https://via.placeholder.com/50.gif</image>
+  </record>
+   <record>
+    <name>Feta pancakes with salad </name>
+    <description>Tasty pancake filled with feta and salad.  </description>
+    <price>$19.50</price>
+    <image>https://via.placeholder.com/50.gif</image>
+  </record>
+  </products>
+
+
+
