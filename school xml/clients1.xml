@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="client1.xsl"?>
+<!DOCTYPE employees[
+  <!ELEMENT products (record*)>
+  <!ELEMENT record (name, description, price, image)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT description (#PCDATA)>
+  <!ELEMENT price (#PCDATA)>
+  <!ELEMENT image (#PCDATA)>
+
+]>
+
+<!-- The root element should be the same as file name -->
+<products>
+  <record>
+    <name>Sourdough White</name>
+    <description>Our standard sourdough</description>
+    <price>$7.00</price>
+    <image>https://via.placeholder.com/50.gif</image>
+  </record>
+   <record>
+    <name>Sourdough Rye </name>
+    <description>Sourdough created with 50% rye flour</description>
+    <price>$8.00</price>
+    <image>https://via.placeholder.com/50.gif</image>
+  </record>
+   <record>
+    <name>Sourdough Spelt</name>
+    <description>Sourdough created with 100% spelt flour. </description>
+    <price> $9.00</price>
+    <image>https://via.placeholder.com/50.gif</image>
+  </record>
+   <record>
+    <name>Sourdough Seeded </name>
+    <description> Sourdough including a mixture of yummy seeds. </description>
+    <price>$9.50</price>
+    <image>https://via.placeholder.com/50.gif</image>
+  </record>
+  </products>
+
+
